@@ -156,3 +156,28 @@ img {
     margin-top: 1.2em;
   }
 }
+
+
+/* =====================
+   MOBILE VISUAL BREATHING (FINAL POLISH)
+===================== */
+@media (max-width: 768px) {
+
+  section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  section + section {
+    margin-top: 24px;
+  }
+
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  h2 + p {
+    margin-top: 0;
+  }
+
+}
